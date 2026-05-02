@@ -59,6 +59,8 @@ All models achieved near-perfect accuracy due to the highly separable nature of 
 * Visualizations showed strong separation between classes
 * Features such as **odor** clearly distinguish edible vs poisonous mushrooms
 
+<img width="1489" height="3990" alt="download" src="https://github.com/user-attachments/assets/333f23ef-8d5e-45e3-98ba-e003afd1e39e" />
+
 ---
 
 # Problem Formulation
@@ -119,6 +121,31 @@ Random Forest was selected as the primary model due to its strong performance on
 * Very few classification errors
 
 ---
+
+## Results Visualization
+
+### Confusion Matrix
+
+<img width="519" height="413" alt="download (2)" src="https://github.com/user-attachments/assets/cac0aea2-1dd8-4242-9f4b-9cc53aed3fe7" />
+
+The confusion matrix shows that the model correctly classifies almost all mushrooms, with very few errors.
+
+---
+
+### ROC Curve
+
+<img width="567" height="455" alt="download (3)" src="https://github.com/user-attachments/assets/c2e70c6e-57e5-4600-8df6-bf4aa8de797c" />
+
+The ROC curve demonstrates strong classification performance, with an AUC close to 1.
+
+---
+
+### Feature Importance
+
+<img width="710" height="435" alt="download (1)" src="https://github.com/user-attachments/assets/c9883d30-03d6-4ce4-8a42-6f42f1593764" />
+
+Feature importance highlights that odor is the most influential feature in predicting whether a mushroom is poisonous.
+
 
 ## Conclusions
 
